@@ -1,4 +1,8 @@
-name = "Nika"
-age = 15
+name = input("What is your name? :")
+surname = input("What is your surname :")
+age = input("What is your age? :")
+futuretime = input("How long do you want to travel time? :")
 
-print(15+3.5)
+calculation = (int(age) + int(futuretime))
+
+print(name, surname + " " + "will be" + " " + str(calculation) + " " + "years old")
