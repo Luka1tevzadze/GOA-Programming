@@ -1,23 +1,15 @@
-print("Valid answers are kaci and qali and non beineri")
+print("Valid answers are man and woman and non binary")
 
 print("--------------------------------------------------")
 
 gender_check = input("What Gender are you? : ")
-age_check = input("How old are you? : ")
+age_check = int(input("How old are you? : "))
 
 
-if gender_check == ("kaci"):
-    print("pensia gekutvnit")
+if age_check >= 65 and gender_check == "man":
+    print("Pensia Gekutvnit")
 else:
-    if gender_check ==  ("qali"):
-        print("tqven gekutvnit pensia")
-
-if gender_check == "non beineri":
-    print("SHEE VIN JANDABA XAR DA MOSHORDI")
-
-
-if age_check == 65:
-    print("pensia gekutvnit")
-
-if age_check == 60:
-    print("tqven gekutvnit pensia")
+    if age_check >= 60 and gender_check == "woman":
+        print("Tqven Pensia Gekutvnit")
+if gender_check == "non binary":
+    print("Get out of here!! you bitch bitch")
