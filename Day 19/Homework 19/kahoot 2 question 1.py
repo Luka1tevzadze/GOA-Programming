@@ -1,0 +1,1 @@
+print("Tyeshela",6.9,False,True,4.20,69)
